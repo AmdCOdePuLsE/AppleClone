@@ -1,0 +1,640 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+.navbar{
+    height: 44px;
+    width: 100%;  
+    background-color: #161617CC; 
+}
+
+.space{
+    width: 80%;
+    display: flex;
+    font-size: 12px;
+    padding-right: 8px;
+    color: rgba(255, 255, 255, 0.822);
+    align-items: center;
+    padding-left: 138px;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height: 44px;
+    width: 30px;
+}
+
+.logo{
+    background-image: url("apple_logo.png");
+    background-size: cover;
+    height: 17px;
+    width: 3px;
+    object-fit: fill;
+    padding: 0px 8px;
+    margin-top: 13px;
+}
+
+.search {
+    font-size: 15px;
+}
+
+.bag{
+    font-size: 15px;
+}
+
+/**-----------------------------------------------**/
+
+.message{
+    width: 100%;
+    height: 44px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.message a{
+    color: rgb(0, 0, 255);
+}
+
+/**---------------------------------------------**/
+
+.hero-section{
+    height: 630px;
+    width: 100%;
+    background-image: url("university.jpg");
+}
+
+.first-lineone{
+    color: white;
+    font-size: 60px;
+    font-weight: 550;
+    font-family: 'Cabin';
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+}
+
+.second-line{
+    color: white;
+    font-size: 26.5px;
+    font-weight: 550;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: center; 
+}
+
+.learnmoreone{
+    height: 44px;
+    width: 130px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 50px;
+    margin-left: 580px;
+    margin-top: 13.5px;
+}
+
+.learnmoreone p{
+    padding: 10px 21px;
+}
+
+/**-----------------------------------------------**/
+
+.divider{
+    height: 14px;
+    width: 100%;
+    background-color: white;
+}
+
+/**-------------------------------------------------**/
+
+.pagetwo{
+    height: 580px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.first-linetwo{
+    color: white;
+    font-size: 60px;
+    font-weight: 550;
+    font-family: 'Cabin';
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.learnmoretwo{
+    height: 44px;
+    width: 130px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 50px;
+    margin-left: 545px;
+    margin-top: 13.5px;
+}
+
+.learnmoretwo p{
+    padding: 10px 21px;
+}
+
+.buy{
+    height: 44px;
+    width: 73px;
+    border: 1px solid #0071E3;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #0071E3;
+    margin-top: -45px;
+    margin-left: 695px;
+}
+
+.buy p{
+   padding-left: 21px;
+   padding-top: 9px;
+}
+
+.image{
+    padding-left: 40px;
+}
+
+/**------------------------------------------------**/
+
+.pagethree {
+    height: 580px;
+    width: 100%;
+    background-color:rgba(224, 224, 224, 0.808);
+}
+
+.first-linethree{
+    color: black;
+    font-size: 70px;
+    font-weight: 550;
+    font-family: 'Cabin';
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.second-linethree{
+    color: black;
+    font-size: 26.5px;
+    font-weight: 500;
+    font-family: 'Quicksand';
+    display: flex;
+    justify-content: center;
+}
+
+.lernmr{
+    height: 44px;
+    width: 130px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 50px;  
+    margin-left: 540px;
+    margin-top: 20px;
+}
+
+.lernmr p{
+    padding: 10px 21px;
+}
+
+.buy2{
+    height: 44px;
+    width: 73px;
+    border: 1px solid #0071E3;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #0071E3;
+    margin-top: -45px;
+    margin-left: 688px;
+}
+
+.buy2 p{
+   padding-left: 21px;
+   padding-top: 9px;
+}
+
+.image2{
+    background-image: url("frame3.png");
+   margin-left: 330px;
+    background-size: auto;
+    height: 345px;
+    background-repeat: no-repeat;
+}
+
+/**-------------------------------------------**/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.box{
+   /* border: 2px solid black; */
+    height: 580px;
+    width: 635px;
+    background-color: black;
+    color: white;
+}
+
+.imgs{
+    height: 450px;
+    width: 450px;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.box-img{
+    background-image: url("apple.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.line{
+    display: flex;
+    color: white;
+}
+
+.logonew{
+    background-image: url("apple_logo.png");
+    background-size: cover;
+    height: 33px;
+    width: 20px;
+    padding: 0px 8px;
+    margin-top: -30px;
+    margin-left: 205px;
+}
+
+.line p{
+    font-size: 30px;
+    margin-top: -32px;
+}
+
+.line2{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 120px;
+    padding-top: 10px;
+}
+
+.line3{
+    color: #0071E3;
+    margin-left: 165px;
+    margin-top: 11px;
+    font-size: 18px;
+}
+
+/**--------------------------------------------**/
+
+.imgs2{
+    height: 450px;
+    width: 350px;
+    margin-left: 140px;
+    margin-top: -30px;
+}
+
+.box-img2{
+    background-image: url("iPadpro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.linenew{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    margin-top: 40px;
+    margin-left: 220px;
+}
+
+.line p{
+    font-size: 30px;
+    margin-top: -32px;
+    
+}
+
+.line2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Quicksand';
+    margin-left: 120px;
+    padding-top: 0px;
+}
+
+.button{
+    display: flex;
+}
+
+.lernomr{
+    height: 36px;
+    width: 105px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 50px;  
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.lernomr p{
+    padding: 7px 13px;
+}
+
+.buybutt
+{
+    height: 36px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid #0071E3;
+    color: #0071E3;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 18.5px;
+    
+}
+
+.buybutt p{
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+/**-------------------------------------------**/
+.box3{
+    /* border: 2px solid black; */
+     height: 580px;
+     width: 635px;
+     background-color: #ffffff;
+     background-image: linear-gradient(315deg, #ffffff 0%, #274060 74%);
+     color: white;
+ }
+
+ .imgslogo{
+    height: 65px;
+    width: 230px;
+    background-color: transparent;
+    margin-left: 180px;
+    margin-top: 40px;
+ }
+
+ .line3 p{
+    margin-left: 0px;
+    color: black;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: -10px;
+ }
+
+ .box-img3{
+    background-image: url("airlogp.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+ }
+
+ .button2{
+    display: flex;
+}
+
+.lernomre{
+    height: 36px;
+    width: 105px;
+    background-color: rgb(31, 29, 29);
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 50px;  
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.lernomre p{
+    padding: 7px 13px;
+}
+
+.buybut
+{
+    height: 36px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 18.5px;
+}
+
+.buybut p{
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+.imgsbg{
+    height: 360px;
+    width: 290px;
+    background-color: transparent;
+    margin-left: 150px;
+    margin-top: 13px;
+}
+
+.box-imgbg{
+    background-image: url("freshair.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/**--------------------------------------------**/
+
+.box4{
+    background-color: white;
+    color: black;
+}
+.imgs2{
+    height: 350px;
+    width: 230px;
+    margin-left: 200px;
+    margin-top: 11px;
+}
+
+.box-img2{
+    background-image: url("macair.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.linenw{
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+    margin-top: 40px;
+    margin-left: 185px;
+}
+
+.line p{
+    font-size: 30px;
+    margin-top: -32px;
+    
+}
+
+.linee2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Quicksand';
+    margin-left: 230px;
+    padding-top: 0px;
+}
+
+.button{
+    display: flex;
+}
+
+.learnomr{
+    height: 36px;
+    width: 105px;
+    background-color: #0071E3;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 50px;  
+    margin-left: 237px;
+    margin-top: 20px;
+}
+
+.learnomr p{
+    padding: 7px 13px;
+}
+
+.buybuto
+{
+    height: 36px;
+    width: 60px;
+    background-color: transparent;
+    border: 1px solid #0071E3;
+    color: #0071E3;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 18.5px;
+}
+
+.buybuto p{
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+/**-----------------------------------------------------**/
+
+.last-pg{
+    height: 900px;
+    width: 1300px;
+    background-color: black;
+    color: grey;
+}
+
+.txt{
+    width: 990px;
+    margin-left: 155px;
+}
+.last-pg p{
+    
+    font-size: 12.5px;
+    padding-top:  22px;
+}
+
+hr{
+    width: 980px;
+    opacity: 0.3;
+    margin-top: 25px;
+    color: rgba(128, 128, 128, 0.705);
+    margin-left: 155px;
+}
+
+/**---------------------------------------------------------**/
+
+.txt2{
+    display: flex;
+    width: 970px;
+    justify-content: space-evenly;
+    margin-left: 85px;
+    margin-top: -50px;
+}
+ul{
+    margin-top: 50px;
+}
+
+.txt2 p{
+    font-weight: 550;
+}
+ul a{
+    display: block;
+    font-size: 12.5px;
+    margin-top: 10px;
+    color: grey
+}
+
+ul a:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+}
+
+/**----------------------------------------------------**/
+
+.txt3 a{
+    color: #0071E3;
+    font-size: 12.5px;
+    text-decoration: underline;
+}
+
+.txt3 p{
+    margin-top: -110px;
+    margin-left: 153px;
+    color: gray;
+    font-size: 12.5px;
+}
+
+/**-----------------------------------------------------**/
+
+.txt4 p{
+    margin-top: 25px;
+    margin-left: 153px;
+    display: flex;
+    color: gray;
+    font-size: 12.5px;
+}
+
+.ntxt{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: -16px;
+    margin-left: 90px;
+    color: gray;
+    font-size: 12.5px;
+}
+
+.txt6 p{
+    margin-top: -16px;
+    margin-left: 1110px;
+    display: flex;
+    color: gray;
+    font-size: 12.5px;
+}
